@@ -4,6 +4,11 @@
 ### About The Application
 This application is a basic API client which gathers data from an outside API (in this case, Stackoverflow) and generates an isomorphic, single-page application (SPA).
 
+### About the testing
+The project contains Jest tests implemented with the focus in the Isomorphic React application, the Jest scenarios are placed under components/tests folder, and the project has also some mocks under the mocks folder.
+
+Basically some Jest features were implemented for testing the power of Jest for testing components in React applications, and also, the power of the Jest snapshot for testing complex scenarios.
+
 ### Why Isomorphic React?
 Great question!
 - Uses React / Redux as main application engine
